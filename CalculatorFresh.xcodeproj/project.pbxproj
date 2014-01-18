@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9C46DD1887614500E973F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46DC1887614500E973F2 /* Foundation.framework */; };
+		EC9C46DF1887614500E973F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46DE1887614500E973F2 /* CoreGraphics.framework */; };
+		EC9C46E11887614500E973F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46E01887614500E973F2 /* UIKit.framework */; };
+		EC9C46E71887614500E973F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9C46E51887614500E973F2 /* InfoPlist.strings */; };
+		EC9C46E91887614500E973F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C46E81887614500E973F2 /* main.m */; };
+		EC9C46ED1887614500E973F2 /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C46EC1887614500E973F2 /* RBAppDelegate.m */; };
+		EC9C46F01887614500E973F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9C46EE1887614500E973F2 /* Main.storyboard */; };
+		EC9C46F31887614500E973F2 /* RBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C46F21887614500E973F2 /* RBViewController.m */; };
+		EC9C46F51887614500E973F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9C46F41887614500E973F2 /* Images.xcassets */; };
+		EC9C46FC1887614500E973F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46FB1887614500E973F2 /* XCTest.framework */; };
+		EC9C46FD1887614500E973F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46DC1887614500E973F2 /* Foundation.framework */; };
+		EC9C46FE1887614500E973F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9C46E01887614500E973F2 /* UIKit.framework */; };
+		EC9C47061887614500E973F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC9C47041887614500E973F2 /* InfoPlist.strings */; };
+		EC9C47081887614500E973F2 /* CalculatorFreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9C47071887614500E973F2 /* CalculatorFreshTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC9C46FF1887614500E973F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9C46D11887614500E973F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9C46D81887614500E973F2;
+			remoteInfo = CalculatorFresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9C46D91887614500E973F2 /* CalculatorFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9C46DC1887614500E973F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC9C46DE1887614500E973F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC9C46E01887614500E973F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC9C46E41887614500E973F2 /* CalculatorFresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorFresh-Info.plist"; sourceTree = "<group>"; };
+		EC9C46E61887614500E973F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC9C46E81887614500E973F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC9C46EA1887614500E973F2 /* CalculatorFresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorFresh-Prefix.pch"; sourceTree = "<group>"; };
+		EC9C46EB1887614500E973F2 /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		EC9C46EC1887614500E973F2 /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		EC9C46EF1887614500E973F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC9C46F11887614500E973F2 /* RBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBViewController.h; sourceTree = "<group>"; };
+		EC9C46F21887614500E973F2 /* RBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBViewController.m; sourceTree = "<group>"; };
+		EC9C46F41887614500E973F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC9C46FA1887614500E973F2 /* CalculatorFreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorFreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9C46FB1887614500E973F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC9C47031887614500E973F2 /* CalculatorFreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorFreshTests-Info.plist"; sourceTree = "<group>"; };
+		EC9C47051887614500E973F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC9C47071887614500E973F2 /* CalculatorFreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorFreshTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9C46D61887614500E973F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C46DF1887614500E973F2 /* CoreGraphics.framework in Frameworks */,
+				EC9C46E11887614500E973F2 /* UIKit.framework in Frameworks */,
+				EC9C46DD1887614500E973F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9C46F71887614500E973F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C46FC1887614500E973F2 /* XCTest.framework in Frameworks */,
+				EC9C46FE1887614500E973F2 /* UIKit.framework in Frameworks */,
+				EC9C46FD1887614500E973F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9C46D01887614500E973F2 = {
+			isa = PBXGroup;
+			children = (
+				EC9C46E21887614500E973F2 /* CalculatorFresh */,
+				EC9C47011887614500E973F2 /* CalculatorFreshTests */,
+				EC9C46DB1887614500E973F2 /* Frameworks */,
+				EC9C46DA1887614500E973F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9C46DA1887614500E973F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C46D91887614500E973F2 /* CalculatorFresh.app */,
+				EC9C46FA1887614500E973F2 /* CalculatorFreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9C46DB1887614500E973F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C46DC1887614500E973F2 /* Foundation.framework */,
+				EC9C46DE1887614500E973F2 /* CoreGraphics.framework */,
+				EC9C46E01887614500E973F2 /* UIKit.framework */,
+				EC9C46FB1887614500E973F2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9C46E21887614500E973F2 /* CalculatorFresh */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C46EE1887614500E973F2 /* Main.storyboard */,
+				EC9C46F11887614500E973F2 /* RBViewController.h */,
+				EC9C46F21887614500E973F2 /* RBViewController.m */,
+				EC9C46F41887614500E973F2 /* Images.xcassets */,
+				EC9C46E31887614500E973F2 /* Supporting Files */,
+			);
+			path = CalculatorFresh;
+			sourceTree = "<group>";
+		};
+		EC9C46E31887614500E973F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C46EB1887614500E973F2 /* RBAppDelegate.h */,
+				EC9C46EC1887614500E973F2 /* RBAppDelegate.m */,
+				EC9C46E41887614500E973F2 /* CalculatorFresh-Info.plist */,
+				EC9C46E51887614500E973F2 /* InfoPlist.strings */,
+				EC9C46E81887614500E973F2 /* main.m */,
+				EC9C46EA1887614500E973F2 /* CalculatorFresh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9C47011887614500E973F2 /* CalculatorFreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C47071887614500E973F2 /* CalculatorFreshTests.m */,
+				EC9C47021887614500E973F2 /* Supporting Files */,
+			);
+			path = CalculatorFreshTests;
+			sourceTree = "<group>";
+		};
+		EC9C47021887614500E973F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C47031887614500E973F2 /* CalculatorFreshTests-Info.plist */,
+				EC9C47041887614500E973F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9C46D81887614500E973F2 /* CalculatorFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9C470B1887614500E973F2 /* Build configuration list for PBXNativeTarget "CalculatorFresh" */;
+			buildPhases = (
+				EC9C46D51887614500E973F2 /* Sources */,
+				EC9C46D61887614500E973F2 /* Frameworks */,
+				EC9C46D71887614500E973F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatorFresh;
+			productName = CalculatorFresh;
+			productReference = EC9C46D91887614500E973F2 /* CalculatorFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC9C46F91887614500E973F2 /* CalculatorFreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9C470E1887614500E973F2 /* Build configuration list for PBXNativeTarget "CalculatorFreshTests" */;
+			buildPhases = (
+				EC9C46F61887614500E973F2 /* Sources */,
+				EC9C46F71887614500E973F2 /* Frameworks */,
+				EC9C46F81887614500E973F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC9C47001887614500E973F2 /* PBXTargetDependency */,
+			);
+			name = CalculatorFreshTests;
+			productName = CalculatorFreshTests;
+			productReference = EC9C46FA1887614500E973F2 /* CalculatorFreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9C46D11887614500E973F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Rashuapps.com;
+				TargetAttributes = {
+					EC9C46F91887614500E973F2 = {
+						TestTargetID = EC9C46D81887614500E973F2;
+					};
+				};
+			};
+			buildConfigurationList = EC9C46D41887614500E973F2 /* Build configuration list for PBXProject "CalculatorFresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9C46D01887614500E973F2;
+			productRefGroup = EC9C46DA1887614500E973F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9C46D81887614500E973F2 /* CalculatorFresh */,
+				EC9C46F91887614500E973F2 /* CalculatorFreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9C46D71887614500E973F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C46F51887614500E973F2 /* Images.xcassets in Resources */,
+				EC9C46E71887614500E973F2 /* InfoPlist.strings in Resources */,
+				EC9C46F01887614500E973F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9C46F81887614500E973F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C47061887614500E973F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9C46D51887614500E973F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C46ED1887614500E973F2 /* RBAppDelegate.m in Sources */,
+				EC9C46E91887614500E973F2 /* main.m in Sources */,
+				EC9C46F31887614500E973F2 /* RBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9C46F61887614500E973F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9C47081887614500E973F2 /* CalculatorFreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC9C47001887614500E973F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9C46D81887614500E973F2 /* CalculatorFresh */;
+			targetProxy = EC9C46FF1887614500E973F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC9C46E51887614500E973F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9C46E61887614500E973F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC9C46EE1887614500E973F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9C46EF1887614500E973F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC9C47041887614500E973F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC9C47051887614500E973F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC9C47091887614500E973F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC9C470A1887614500E973F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9C470C1887614500E973F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorFresh/CalculatorFresh-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorFresh/CalculatorFresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC9C470D1887614500E973F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorFresh/CalculatorFresh-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorFresh/CalculatorFresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC9C470F1887614500E973F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalculatorFresh.app/CalculatorFresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorFresh/CalculatorFresh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CalculatorFreshTests/CalculatorFreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC9C47101887614500E973F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CalculatorFresh.app/CalculatorFresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorFresh/CalculatorFresh-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorFreshTests/CalculatorFreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9C46D41887614500E973F2 /* Build configuration list for PBXProject "CalculatorFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9C47091887614500E973F2 /* Debug */,
+				EC9C470A1887614500E973F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9C470B1887614500E973F2 /* Build configuration list for PBXNativeTarget "CalculatorFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9C470C1887614500E973F2 /* Debug */,
+				EC9C470D1887614500E973F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9C470E1887614500E973F2 /* Build configuration list for PBXNativeTarget "CalculatorFreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9C470F1887614500E973F2 /* Debug */,
+				EC9C47101887614500E973F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC9C46D11887614500E973F2 /* Project object */;
+}
